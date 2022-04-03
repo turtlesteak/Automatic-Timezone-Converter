@@ -1,0 +1,27 @@
+html {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.local {
+    font-size: 2.5em;
+    text-align: center;
+}
+.utc {
+    font-size: 2.5em;
+    text-align: center;
+}
+.flex-container {
+    display: flex;
+    flex-direction: row;
+    margin: 0px 50px;
+}
+.flex-container .flex {
+    flex: 1;
+}
+@media (max-width: 1600px) {
+    .flex-container {
+        flex-direction: column;
+    }
+}
+.flex {
+    padding: 50px;
+}

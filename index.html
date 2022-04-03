@@ -1,16 +1,24 @@
 <!DOCTYPE html>
-<html>
-    <head>
-        <title>Automatic Timezone Conversion</title>
-        <script src="time.js"></script>
-    </head>
-    <body style="font-size: 50pt;">
-        <em>Your local time:</em>
-        <div id="local">
-            Loading...
+<html lang="en">
+<head>
+    <title>Automated Time Converter</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="time.js"></script>
+</head>
+<body>
+    <div class="flex-container">
+        <div class="local flex">
+            <h2>Local Time:</h2>
+            <p id="local">
+                Loading...
+            </p>
         </div>
-        <br><br><br>
-        <em>UTC time:</em>
-        <div id="utc">Loading...</div>
-    </body>
+        <div class="utc flex">
+            <h2>UTC Time:</h2>
+            <p id="utc">
+                Loading...
+            </p>
+        </div>    
+    </div>
+</body>
 </html>
